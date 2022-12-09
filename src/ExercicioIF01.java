@@ -18,7 +18,7 @@ public class ExercicioIF01 {
          prod_com_desc = valor_f - desc_valor;
 	     String mensagem = "Produto: " + nome_produtoS + "\nValor Original do produto: " + valor_f + "\nValor do Produto com desconto:" + prod_com_desc;
 	     JOptionPane.showMessageDialog(null, mensagem);
-	 }
+	     }
 	     else if (valor_f >=200 && valor_f <500) {
          desc_porc = 6;
          desc_valor = valor_f * desc_porc / 100;
